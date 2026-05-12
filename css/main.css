@@ -1,0 +1,111 @@
+@import "./variables.css";
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--boder);
+  display: flex;
+  align-items: center;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.nav__list {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__link {
+  color: var(--text-primary);
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.nav__link:hover,
+.nav__link--active {
+  opacity: 1;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  color: var(--text-primary);
+}
+
+.theme-toggle svg {
+  width: 24px;
+  height: 24px;
+}
+
+.hidden-icon {
+  display: none;
+}
+
+.header__actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.hero {
+  padding: 4rem 0;
+  text-align: center;
+  border-bottom: 1px solid var(--boder);
+}
+
+.hero__title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.posts {
+  padding: 3rem;
+}
+
+.posts__title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.footer {
+  padding: 2rem 0;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer__social-link {
+  color: var(--text-primary);
+}
+
+.footer__social-link:hover {
+  color: var(--text-primary);
+}
