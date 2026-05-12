@@ -1,5 +1,3 @@
-import { createElement } from "react";
-
 export function formatDate(dateString) {
     const date = new Date(dateString);
     const options = { year: "numeric", month: "long", day: "numeric" };
@@ -66,7 +64,7 @@ export async function renderPosts() {
 
     await loadPosts();
     container.innerHTML = "";
-    postData.forEach((postData) => {
+    postData.forEach((post) => {
         const card = createPostCard(post);
         container.appendChild(card);
     });
