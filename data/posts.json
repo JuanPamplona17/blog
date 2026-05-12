@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Mi primer post en el blog",
+    "date": "2026-05-01",
+    "excerpt": "Este es un ejemplo de cómo podríaverse un post en mi nuevo blogpersonal. Espero que te diviertas leyendo.",
+    "image": "https://picsum.photos/seed/post1/600/340",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "Aprendiendo desarrollo web",
+    "date": "2026-04-15",
+    "excerpt": "El desarrollo web es un camino largopero gratificante. Aquí comparto algunosconsejos para quienes están empezar.",
+    "image": "https://picsum.photos/seed/post2/600/340",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Por qué me gusta programar",
+    "date": "2026-03-28",
+    "excerpt": "La programación es más que código: esresolver problemas, crear herramientas yexpresar creatividad.",
+    "image": "https://picsum.photos/seed/post3/600/340",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "Mi setup de trabajo",
+    "date": "2026-03-10",
+    "excerpt": "Un breve tour por mi espacio detrabajo y las herramientas que uso díapara ser productivo.",
+    "image": "https://picsum.photos/seed/post4/600/340",
+    "link": "#"
+  }
+]
