@@ -8,7 +8,7 @@ let postData = [];
 
 export async function loadPosts() {
     try {
-        const response = await fetch("/data/posts.json?v=" + Date.now());
+        const response = await fetch("data/posts.json?v=" + Date.now());
         postData = await response.json();
     } catch (error) {
         console.error("Error loading posts:", error);
